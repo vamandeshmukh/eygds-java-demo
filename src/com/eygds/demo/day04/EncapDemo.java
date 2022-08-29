@@ -10,16 +10,27 @@ public class EncapDemo {
 ////			body.muscles = "Very strong";
 //			System.out.println(body.getMuscles());
 
-		Employee emp = new Employee();
+//		Employee emp = new Employee();
+//		
+//		emp.setEmployeeId(101);
+//		emp.setFirstName("Sonu");
+//		emp.setSalary(900000);
+//		
+//		System.out.println(emp.getEmployeeId());
+//		System.out.println(emp.getFirstName());
+//		System.out.println(emp.getSalary());
 		
-		emp.setEmployeeId(101);
-		emp.setFirstName("Sonu");
-		emp.setSalary(900000);
+		Employee emp = new Employee(101, "Sonu", 90000);
 		
-		System.out.println(emp.getEmployeeId());
-		System.out.println(emp.getFirstName());
-		System.out.println(emp.getSalary());
+		System.out.println(emp.toString());
 		
+		Employee emp2 = new Employee(101, "Sonu", 90000);
+		
+		System.out.println(emp.toString());
+		System.out.println(emp2.toString());
+		System.out.println(emp.equals(emp2));
+		System.out.println(emp.hashCode());
+		System.out.println(emp2.hashCode());
 
 	}
 
