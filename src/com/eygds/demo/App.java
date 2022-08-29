@@ -9,10 +9,8 @@ comment.
 */
 
 /**
-This is a 
-documentation 
-comment. 
-*/
+ * This is a documentation comment.
+ */
 
 public class App {
 
