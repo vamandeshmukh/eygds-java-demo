@@ -1,12 +1,12 @@
 package com.eygds.demo.day04;
 
-import java.util.Random;
+//import java.util.Random;
 
 public class RandomDemo {
 
 	public static void main(String[] args) {
 
-		Random ran = new Random();
+		java.util.Random ran = new java.util.Random();
 
 		int num = ran.nextInt();
 		System.out.println(num);
