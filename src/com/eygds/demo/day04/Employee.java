@@ -24,7 +24,10 @@ public class Employee {
 	private int employeeId;
 	private String firstName;
 	private double salary;
+	// dob, email, phone, address, qualification, 
 
+	
+	
 	public Employee() {
 		super();
 	}
