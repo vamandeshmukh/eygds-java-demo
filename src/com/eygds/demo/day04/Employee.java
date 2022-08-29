@@ -59,7 +59,7 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-
+ 
 	@Override
 	public int hashCode() {
 		return Objects.hash(employeeId, firstName, salary);
