@@ -25,8 +25,6 @@ public class App {
 		double totalIncome = basicSalary + allowances;
 
 		System.out.println(totalIncome);
-		System.out.println(totalIncome);
-		System.out.println(totalIncome);
 
 	}
 
