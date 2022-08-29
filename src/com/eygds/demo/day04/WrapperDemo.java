@@ -15,7 +15,23 @@ public class WrapperDemo {
 //		num2.
 //		Integer. 
 		
+		int num6 = 10;
+		
+		Integer num7 = Integer.valueOf(num6); // boxing 
+		
+		int num8 = num7.intValue(); // unboxing 
+		
+		String num9 = "10";
+		
+		Integer num10 = Integer.parseInt(num9); // String to Integer parsing 
+		
 		
 	}
 
 }
+
+
+
+
+
+

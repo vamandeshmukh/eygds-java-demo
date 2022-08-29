@@ -12,25 +12,29 @@ package com.eygds.demo.day03;
 
 public class Employee {
 
+	static int num;
 	int employeeId;
 	String firstName;
 	double salary;
 
 	public Employee() {
+		super();
 		System.out.println("default constructor");
 	}
 
-	public Employee(int eid, String name) {
+	public Employee(int employeeId, String firstName) {
+		super();
 		System.out.println("2 parameterized constructor");
-		employeeId = eid;
-		firstName = name;
+		this.employeeId = employeeId;
+		this.firstName = firstName;
 	}
 
-	public Employee(int eid, String name, double sal) {
+	public Employee(int employeeId, String firstName, double salary) {
+		super();
 		System.out.println("all parameterized constructor");
-		employeeId = eid;
-		firstName = name;
-		salary = sal;
+		this.employeeId = employeeId;
+		this.firstName = firstName;
+		this.salary = salary;
 	}
 
 	@Override
@@ -42,4 +46,7 @@ public class Employee {
 
 	}
 
+	static void someOtherMethod() {
+
+	}
 }

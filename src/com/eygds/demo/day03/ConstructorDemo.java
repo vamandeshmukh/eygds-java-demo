@@ -1,5 +1,8 @@
 package com.eygds.demo.day03;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ConstructorDemo {
 
 	public static void main(String[] args) {
@@ -23,6 +26,10 @@ public class ConstructorDemo {
 		System.out.println(obj4.toString());
 
 		obj.someMethod();
+		
+//		Employee.
+//		obj.
+
 
 	}
 
