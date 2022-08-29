@@ -4,9 +4,7 @@ package com.eygds.demo.day04;
 
 public class FeaturePhone extends Phone {
 
-	// call sms
-
-	void music() {
+	public void music() {
 		System.out.println("Playing music...");
 	}
 

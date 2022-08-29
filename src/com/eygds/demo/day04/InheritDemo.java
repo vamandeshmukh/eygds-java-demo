@@ -15,6 +15,12 @@ public class InheritDemo {
 		phone2.sms();
 		phone2.music();
 		
+		System.out.println("My smart phone:");
+		SmartPhone phone3 = new SmartPhone();
+		phone3.call();
+		phone3.sms();
+		phone3.music();
+		phone3.camera();
 
 	}
 

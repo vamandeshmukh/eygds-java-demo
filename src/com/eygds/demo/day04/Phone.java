@@ -2,11 +2,11 @@ package com.eygds.demo.day04;
 
 public class Phone {
 
-	void call() {
+	public void call() {
 		System.out.println("Calling...");
 	}
 
-	void sms() {
+	public void sms() {
 		System.out.println("Sending SMS...");
 	}
 
