@@ -21,6 +21,8 @@ public class InheritDemo {
 		phone3.sms();
 		phone3.music();
 		phone3.camera();
+		Phone phone4 = new SmartPhone();
+		
 
 	}
 
