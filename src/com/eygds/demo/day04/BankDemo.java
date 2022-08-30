@@ -17,6 +17,12 @@ package com.eygds.demo.day04;
 // if a concrete class extends abstract class - 
 // then that concrete class should override and implement abstract methods 
 
+// interface - 
+//has the keyword interface
+//can contain 0 or more abstract methods 
+//can contain 0 or more static and default methods 
+//object can not be created for an interface
+
 abstract class Rbi {
 
 	public abstract void doKyc();
@@ -25,8 +31,8 @@ abstract class Rbi {
 
 interface FinMin {
 	
-//	public abstract void payInterest();
-	void payInterest();
+	public abstract void payInterest();
+//	void payInterest();
 
 }
 
@@ -68,3 +74,30 @@ public class BankDemo {
 	}
 
 }
+
+
+interface In1 {
+	
+}
+
+interface In2 {
+	
+}
+
+class C2 {
+	
+}
+
+class C1 extends C2 implements In1, In2 {
+	
+}
+
+
+
+
+
+
+
+
+
+
