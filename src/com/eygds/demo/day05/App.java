@@ -12,6 +12,7 @@ package com.eygds.demo.day05;
 
 
 // Method Overriding 
+// Method from a super-type is given a different implementation in sub-type 
 
 public class App {
 	
