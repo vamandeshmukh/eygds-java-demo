@@ -14,6 +14,9 @@ package com.eygds.demo.day06;
 
 //Methods - add elements, remove elements, view elements, sort elements etc 
 
+// collections accept only object types of data 
+// collections does not accept primitive types of data 
+
 
 public class App {
 	
