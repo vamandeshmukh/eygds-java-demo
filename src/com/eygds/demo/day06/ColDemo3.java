@@ -12,12 +12,19 @@ public class ColDemo3 {
 
 		System.out.println(list.size());
 		System.out.println(list);
-		list.add(20);
-		list.add(30);
-		list.add(40);
+		list.add(2);
+		list.add(1);
+		list.add(6);
+		list.add(4);
+		list.add(5);
+		list.add(3);
 		System.out.println(list.size());
 		System.out.println(list);
-//		list.
+		list.remove(4);
+		System.out.println(list.size());
+		System.out.println(list);
+		
+//		list.add
 	}
 
 }
