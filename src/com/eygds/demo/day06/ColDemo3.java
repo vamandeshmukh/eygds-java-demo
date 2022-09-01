@@ -12,18 +12,23 @@ public class ColDemo3 {
 
 		System.out.println(list.size());
 		System.out.println(list);
+		Integer num = 6;
 		list.add(2);
 		list.add(1);
 		list.add(6);
 		list.add(4);
 		list.add(5);
+		list.add(6);
 		list.add(3);
+//		list.add(
 		System.out.println(list.size());
 		System.out.println(list);
-		list.remove(4);
+//		list.remove(2);
+		list.remove(num);
 		System.out.println(list.size());
 		System.out.println(list);
-		
+		System.out.println(list.get(2));
+
 //		list.add
 	}
 
