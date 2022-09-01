@@ -4,7 +4,7 @@ package com.eygds.demo.day06;
 
 //interfaces, classes, methods etc 
 
-//interfaces - List Map Set Queue 
+//interfaces - List, Map, Set, Queue 
 
 //classes - 
 //List - ArrayList, LinkedList, Stack, Vector 
