@@ -16,11 +16,14 @@ public class StreamDemo {
 		empList.add(new Employee(105, "Gonu", 98000));
 
 		System.out.println("empList with for each loop:");
-
 		for (Employee emp : empList) {
 			System.out.println(emp.toString());
 		}
 
+		System.out.println("empList with only salary > 90K with for each loop:");
+		for (Employee emp : empList) {
+			System.out.println(emp.toString());
+		}
 	}
 
 }
