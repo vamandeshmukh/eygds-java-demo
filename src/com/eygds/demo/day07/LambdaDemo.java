@@ -4,6 +4,14 @@ package com.eygds.demo.day07;
 interface FunInt {
 
 	public abstract void funMethod();
+	
+	public static void statMethod() {
+		// code 
+	}
+	
+	public default void defMethod() {
+		// code 
+	}
 
 }
 
@@ -42,6 +50,13 @@ public class LambdaDemo {
 		};
 		obj3.funMethod();
 
+		FunInt obj4 = () -> System.out.println("funMethod implemented with lambda");
+
+		obj4.funMethod();
+		
+		FunInt.statMethod();
+		
+		obj4.defMethod();
 	}
 
 }
