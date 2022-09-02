@@ -22,6 +22,8 @@ public class StreamDemo {
 			System.out.println(emp.toString());
 		}
 
+//		empList.set(0, null)
+
 		System.out.println("empList with forEach method:");
 //		empList.forEach((e) -> {
 //			System.out.println(e.toString());
@@ -67,9 +69,20 @@ public class StreamDemo {
 		System.out.println("EmpList with salary < 90K using stream API");
 
 		List<Employee> empListWithLessSalary = empList.stream().filter(e -> e.getSalary() < 90000)
-				.collect(Collectors.toList()); // imp 
+				.collect(Collectors.toList()); // imp
 
 		empListWithLessSalary.forEach(e -> System.out.println(e.toString()));
+
+		System.out.println("Increase employees' salaries using stream API map() method");
+
+		List<Employee> empsWithNewSalary = empList.stream().map(e -> {
+			if (e.getSalary() < 90000) {
+				e.setSalary(e.getSalary() + e.getSalary() * 0.1);
+			}
+			return e;
+		}).collect(Collectors.toList());
+
+		empsWithNewSalary.forEach(e -> System.out.println(e.toString()));
 
 	}
 
